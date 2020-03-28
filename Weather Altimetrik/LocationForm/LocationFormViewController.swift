@@ -10,6 +10,10 @@ import UIKit
 
 class LocationFormViewController: UIViewController {
 
+    private struct K {
+        static let weatherSegueId = "weatherSegue"
+    }
+
     @IBOutlet private weak var latitudTextfield: UITextField!
     @IBOutlet private weak var longitudeTextfield: UITextField!
     let viewModel = LocationFormViewModel()
@@ -30,8 +34,16 @@ class LocationFormViewController: UIViewController {
             return
         }
 
-        // TODO: Move to the next view
-        showAlert(title: "Success")
+        performSegue(withIdentifier: K.weatherSegueId, sender: nil)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let latitude = latitudTextfield.text, let longitude = longitudeTextfield.text else {
+            return
+        }
+
+        let weatherVC = segue.destination as? WeatherViewController
+        weatherVC?.viewModel = WeatherViewModel(latitude: latitude, longitude: longitude)
     }
 }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p1m-IT-Wk1">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -10,13 +10,13 @@
         <!--Location Form View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LocationFormViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LocationFormViewController" customModule="Weather_Altimetrik" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Th-EW-WlT">
-                                <rect key="frame" x="16" y="68" width="382" height="84"/>
+                                <rect key="frame" x="16" y="112" width="382" height="84"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8Pr-HK-06l">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="84"/>
@@ -66,7 +66,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpe-VA-IST">
-                                <rect key="frame" x="183" y="202" width="48" height="40"/>
+                                <rect key="frame" x="183" y="246" width="48" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Etk-i3-l1s"/>
                                 </constraints>
@@ -86,14 +86,68 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="R1h-G8-gL3"/>
                     <connections>
                         <outlet property="latitudTextfield" destination="YIh-A4-0rL" id="kJp-QO-Oxd"/>
                         <outlet property="longitudeTextfield" destination="PYN-7e-fvL" id="ByM-4b-M5a"/>
+                        <segue destination="a9M-Qf-N7m" kind="show" identifier="weatherSegue" id="cMK-Al-0HY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="80"/>
+            <point key="canvasLocation" x="989.85507246376824" y="79.6875"/>
+        </scene>
+        <!--Weather View Controller-->
+        <scene sceneID="3eF-dP-DcW">
+            <objects>
+                <viewController id="a9M-Qf-N7m" customClass="WeatherViewController" customModule="Weather_Altimetrik" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yZ4-PC-74m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QP8-RT-Cpx" customClass="MSBBarChartView" customModule="MSBBarChart">
+                                <rect key="frame" x="16" y="257" width="382" height="382"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QP8-RT-Cpx" secondAttribute="height" multiplier="1:1" id="6Lz-j8-LWy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QP8-RT-Cpx" firstAttribute="centerX" secondItem="yZ4-PC-74m" secondAttribute="centerX" id="1B0-ft-ahR"/>
+                            <constraint firstItem="QP8-RT-Cpx" firstAttribute="leading" secondItem="eqb-TQ-OF7" secondAttribute="leading" constant="16" id="5u7-NX-1fC"/>
+                            <constraint firstItem="QP8-RT-Cpx" firstAttribute="centerY" secondItem="yZ4-PC-74m" secondAttribute="centerY" id="ZBh-i7-mnQ"/>
+                            <constraint firstItem="eqb-TQ-OF7" firstAttribute="trailing" secondItem="QP8-RT-Cpx" secondAttribute="trailing" constant="16" id="ZXi-Ix-aZw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eqb-TQ-OF7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lUr-1q-xIM"/>
+                    <connections>
+                        <outlet property="chartView" destination="QP8-RT-Cpx" id="iI7-IG-50b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eEq-8S-bt7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879.7101449275365" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0wF-iw-fQM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p1m-IT-Wk1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OWw-3j-uBe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cSp-MK-IrC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZWO-7v-ZyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79.710144927536234" y="79.6875"/>
         </scene>
     </scenes>
 </document>

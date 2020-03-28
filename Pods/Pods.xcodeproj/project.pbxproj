@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1053C8B99278A3AECD337D917628770A /* MSBBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324EEAA243250E1B3F556F055EF6662 /* MSBBarChartView.swift */; };
+		12C9E4F380BCA3CD0999A5C495A141A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		40668EB61FF63F18C21BA7278AD13203 /* Pods-Weather AltimetrikTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F438EE004A31319B2BF89D7600F8C /* Pods-Weather AltimetrikTests-dummy.m */; };
+		46996257C906BA62378991F01C03E190 /* MSBBarChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A09856E7F28964EBD005794232B7B50B /* MSBBarChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC74554C21504C1D2591CC88AB9DF19 /* Pods-Weather Altimetrik-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5996C5D3B7F8CA94BC7DBB43FFD45FD1 /* Pods-Weather Altimetrik-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A018CBD5A38ED65B938ED6851E7719F /* Pods-Weather AltimetrikTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8F30DB24740844DB0C6D702D1FF720 /* Pods-Weather AltimetrikTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9379709830ADF1814152A41B73EE2760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9AC2DF605C9416035501ABF75FA44178 /* MSBBarChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3712A944045CB63EB04A5095ADE8E9 /* MSBBarChart-dummy.m */; };
+		D29C7387170DC9917AE8F9A397384334 /* Pods-Weather Altimetrik-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A3EF8959C6AF7BEDAD5FAA131C8E17 /* Pods-Weather Altimetrik-dummy.m */; };
+		E77B69536555E703081FCBDCC3FEAE12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DFF3D548579BC1F4C58539160B7B03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF6EE3BD874E7A6E784BEF53217E269;
+			remoteInfo = MSBBarChart;
+		};
+		3FC399F5BB10FF41CCA42B1CD0534FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDE563F34B0FC7F7D629224C576CBED;
+			remoteInfo = "Pods-Weather Altimetrik";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006465923D77D571DE900A0A609322E3 /* Pods-Weather Altimetrik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather Altimetrik.debug.xcconfig"; sourceTree = "<group>"; };
+		01A3EF8959C6AF7BEDAD5FAA131C8E17 /* Pods-Weather Altimetrik-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather Altimetrik-dummy.m"; sourceTree = "<group>"; };
+		0D8F30DB24740844DB0C6D702D1FF720 /* Pods-Weather AltimetrikTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather AltimetrikTests-umbrella.h"; sourceTree = "<group>"; };
+		140311A6256DD7A8736E2FA50BD13D6D /* MSBBarChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSBBarChart-prefix.pch"; sourceTree = "<group>"; };
+		2687ED04A528DE06F84CBDCAD5EFF614 /* Pods-Weather AltimetrikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather AltimetrikTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCC2209C50144AEB62AB232613AED29 /* Pods-Weather Altimetrik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather Altimetrik.release.xcconfig"; sourceTree = "<group>"; };
+		2C9F438EE004A31319B2BF89D7600F8C /* Pods-Weather AltimetrikTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather AltimetrikTests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E69264ADB919A5B37B8DE5007F795DC /* Pods-Weather AltimetrikTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather AltimetrikTests-Info.plist"; sourceTree = "<group>"; };
+		5996C5D3B7F8CA94BC7DBB43FFD45FD1 /* Pods-Weather Altimetrik-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather Altimetrik-umbrella.h"; sourceTree = "<group>"; };
+		844F6C5472721B5E5A5513CBC830176F /* Pods-Weather Altimetrik-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather Altimetrik-acknowledgements.plist"; sourceTree = "<group>"; };
+		88FB5D33594ACAC9E548C425C12A4334 /* MSBBarChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSBBarChart.xcconfig; sourceTree = "<group>"; };
+		9324EEAA243250E1B3F556F055EF6662 /* MSBBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSBBarChartView.swift; path = MSBBarChart/Sources/MSBBarChartView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09856E7F28964EBD005794232B7B50B /* MSBBarChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSBBarChart-umbrella.h"; sourceTree = "<group>"; };
+		AE5060BA8368949CB3311F3D2268DE73 /* Pods-Weather AltimetrikTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather AltimetrikTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEB320FC451792F2883350CE1AF1BBE2 /* MSBBarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSBBarChart.framework; path = MSBBarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3C3BBEEA08798F0B8319F76E0FFC84 /* MSBBarChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSBBarChart.modulemap; sourceTree = "<group>"; };
+		B32FFF6867981843CB1D64C931F51254 /* Pods-Weather AltimetrikTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather AltimetrikTests.modulemap"; sourceTree = "<group>"; };
+		BAEB3B8C691DCCA2CF1A07F0F7A8BF2F /* Pods-Weather Altimetrik-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather Altimetrik-Info.plist"; sourceTree = "<group>"; };
+		C28413FFCF653B7CEC3C081A8C6A70F5 /* MSBBarChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSBBarChart-Info.plist"; sourceTree = "<group>"; };
+		CA1559FB9C1A1728E3BBF11B8DF0DA6E /* Pods_Weather_Altimetrik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Weather_Altimetrik.framework; path = "Pods-Weather Altimetrik.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA83BBA749B9B3E45E6CCFDCE5C4F401 /* Pods-Weather Altimetrik-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather Altimetrik-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5BCE56911E3DE3839BFF6AD0CF194EF /* Pods-Weather Altimetrik-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Weather Altimetrik-frameworks.sh"; sourceTree = "<group>"; };
+		EC3712A944045CB63EB04A5095ADE8E9 /* MSBBarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSBBarChart-dummy.m"; sourceTree = "<group>"; };
+		ECE104819EA87C1A35588EF775C8F681 /* Pods-Weather AltimetrikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather AltimetrikTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0D7AE6DD799D21D16097ED80F04A084 /* Pods-Weather AltimetrikTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather AltimetrikTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F622B8D562638EFC401ABF3A51DCAC35 /* Pods_Weather_AltimetrikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Weather_AltimetrikTests.framework; path = "Pods-Weather AltimetrikTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7B420DBE42A8A56FDA026F6332CB91 /* Pods-Weather Altimetrik.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather Altimetrik.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2284D34C8459FACE86FBA02DAC4740DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77B69536555E703081FCBDCC3FEAE12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6318C906CD6E2BD5C164134175E42E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9379709830ADF1814152A41B73EE2760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F606EB1296AE562F8DD4EF1A14A06FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C9E4F380BCA3CD0999A5C495A141A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247720DB6C5C311343DF3D0D2AA7183B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB320FC451792F2883350CE1AF1BBE2 /* MSBBarChart.framework */,
+				CA1559FB9C1A1728E3BBF11B8DF0DA6E /* Pods_Weather_Altimetrik.framework */,
+				F622B8D562638EFC401ABF3A51DCAC35 /* Pods_Weather_AltimetrikTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30656EAD40FFC2D9EAAED0D4FEBBB6C4 /* Pods-Weather Altimetrik */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B420DBE42A8A56FDA026F6332CB91 /* Pods-Weather Altimetrik.modulemap */,
+				CA83BBA749B9B3E45E6CCFDCE5C4F401 /* Pods-Weather Altimetrik-acknowledgements.markdown */,
+				844F6C5472721B5E5A5513CBC830176F /* Pods-Weather Altimetrik-acknowledgements.plist */,
+				01A3EF8959C6AF7BEDAD5FAA131C8E17 /* Pods-Weather Altimetrik-dummy.m */,
+				E5BCE56911E3DE3839BFF6AD0CF194EF /* Pods-Weather Altimetrik-frameworks.sh */,
+				BAEB3B8C691DCCA2CF1A07F0F7A8BF2F /* Pods-Weather Altimetrik-Info.plist */,
+				5996C5D3B7F8CA94BC7DBB43FFD45FD1 /* Pods-Weather Altimetrik-umbrella.h */,
+				006465923D77D571DE900A0A609322E3 /* Pods-Weather Altimetrik.debug.xcconfig */,
+				2BCC2209C50144AEB62AB232613AED29 /* Pods-Weather Altimetrik.release.xcconfig */,
+			);
+			name = "Pods-Weather Altimetrik";
+			path = "Target Support Files/Pods-Weather Altimetrik";
+			sourceTree = "<group>";
+		};
+		5662A1458004381B2C36ACEE71DD4D26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC3BA20BBA7A96AED7F66C64A024D73C /* MSBBarChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		733EB146D74833C95F3816040948E22C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C3BBEEA08798F0B8319F76E0FFC84 /* MSBBarChart.modulemap */,
+				88FB5D33594ACAC9E548C425C12A4334 /* MSBBarChart.xcconfig */,
+				EC3712A944045CB63EB04A5095ADE8E9 /* MSBBarChart-dummy.m */,
+				C28413FFCF653B7CEC3C081A8C6A70F5 /* MSBBarChart-Info.plist */,
+				140311A6256DD7A8736E2FA50BD13D6D /* MSBBarChart-prefix.pch */,
+				A09856E7F28964EBD005794232B7B50B /* MSBBarChart-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSBBarChart";
+			sourceTree = "<group>";
+		};
+		97DF888D9754A1DEA913B1A15C733E90 /* Pods-Weather AltimetrikTests */ = {
+			isa = PBXGroup;
+			children = (
+				B32FFF6867981843CB1D64C931F51254 /* Pods-Weather AltimetrikTests.modulemap */,
+				F0D7AE6DD799D21D16097ED80F04A084 /* Pods-Weather AltimetrikTests-acknowledgements.markdown */,
+				AE5060BA8368949CB3311F3D2268DE73 /* Pods-Weather AltimetrikTests-acknowledgements.plist */,
+				2C9F438EE004A31319B2BF89D7600F8C /* Pods-Weather AltimetrikTests-dummy.m */,
+				3E69264ADB919A5B37B8DE5007F795DC /* Pods-Weather AltimetrikTests-Info.plist */,
+				0D8F30DB24740844DB0C6D702D1FF720 /* Pods-Weather AltimetrikTests-umbrella.h */,
+				2687ED04A528DE06F84CBDCAD5EFF614 /* Pods-Weather AltimetrikTests.debug.xcconfig */,
+				ECE104819EA87C1A35588EF775C8F681 /* Pods-Weather AltimetrikTests.release.xcconfig */,
+			);
+			name = "Pods-Weather AltimetrikTests";
+			path = "Target Support Files/Pods-Weather AltimetrikTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5662A1458004381B2C36ACEE71DD4D26 /* Pods */,
+				247720DB6C5C311343DF3D0D2AA7183B /* Products */,
+				DC0E1EA810DE7A81E449D7767FBFCBFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0E1EA810DE7A81E449D7767FBFCBFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30656EAD40FFC2D9EAAED0D4FEBBB6C4 /* Pods-Weather Altimetrik */,
+				97DF888D9754A1DEA913B1A15C733E90 /* Pods-Weather AltimetrikTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC3BA20BBA7A96AED7F66C64A024D73C /* MSBBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				9324EEAA243250E1B3F556F055EF6662 /* MSBBarChartView.swift */,
+				733EB146D74833C95F3816040948E22C /* Support Files */,
+			);
+			name = MSBBarChart;
+			path = MSBBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43A6499A34662FBF13A608538CFCA78D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC74554C21504C1D2591CC88AB9DF19 /* Pods-Weather Altimetrik-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCEF26E778BB53225E6FDC7057ADCF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46996257C906BA62378991F01C03E190 /* MSBBarChart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C3351A79F059CE7C45F2F7E311F4F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A018CBD5A38ED65B938ED6851E7719F /* Pods-Weather AltimetrikTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3535A5CDF09BB9D8BF999BD53F451850 /* Pods-Weather AltimetrikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EC8EFEAB30B1C54667573FC7B82E09 /* Build configuration list for PBXNativeTarget "Pods-Weather AltimetrikTests" */;
+			buildPhases = (
+				F2C3351A79F059CE7C45F2F7E311F4F4 /* Headers */,
+				578A1242B6F585472C96D132DACAC390 /* Sources */,
+				2284D34C8459FACE86FBA02DAC4740DB /* Frameworks */,
+				3B71CA9861A2AA802EE03679BEF137DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFCCA6BB57C5D4BABED38981B8EE19B /* PBXTargetDependency */,
+			);
+			name = "Pods-Weather AltimetrikTests";
+			productName = "Pods-Weather AltimetrikTests";
+			productReference = F622B8D562638EFC401ABF3A51DCAC35 /* Pods_Weather_AltimetrikTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AF6EE3BD874E7A6E784BEF53217E269 /* MSBBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9B137C93C13E96C22AC080711A4C9E /* Build configuration list for PBXNativeTarget "MSBBarChart" */;
+			buildPhases = (
+				6FCEF26E778BB53225E6FDC7057ADCF2 /* Headers */,
+				D78A5441D477FC6F4A1092594BFD0A01 /* Sources */,
+				6318C906CD6E2BD5C164134175E42E9F /* Frameworks */,
+				78407DA22DC56E8C61F977F6F38B8CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSBBarChart;
+			productName = MSBBarChart;
+			productReference = AEB320FC451792F2883350CE1AF1BBE2 /* MSBBarChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FDE563F34B0FC7F7D629224C576CBED /* Pods-Weather Altimetrik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3A772F25F6A997A009B49C3E054F06 /* Build configuration list for PBXNativeTarget "Pods-Weather Altimetrik" */;
+			buildPhases = (
+				43A6499A34662FBF13A608538CFCA78D /* Headers */,
+				7582D5855CC2EA5FAEC98843CF2B143D /* Sources */,
+				F606EB1296AE562F8DD4EF1A14A06FF6 /* Frameworks */,
+				3010D442090B7108B7FAC886D34DB84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2241A1B19FF0FAB59FB58EB25852C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Weather Altimetrik";
+			productName = "Pods-Weather Altimetrik";
+			productReference = CA1559FB9C1A1728E3BBF11B8DF0DA6E /* Pods_Weather_Altimetrik.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 247720DB6C5C311343DF3D0D2AA7183B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF6EE3BD874E7A6E784BEF53217E269 /* MSBBarChart */,
+				5FDE563F34B0FC7F7D629224C576CBED /* Pods-Weather Altimetrik */,
+				3535A5CDF09BB9D8BF999BD53F451850 /* Pods-Weather AltimetrikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3010D442090B7108B7FAC886D34DB84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B71CA9861A2AA802EE03679BEF137DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78407DA22DC56E8C61F977F6F38B8CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578A1242B6F585472C96D132DACAC390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40668EB61FF63F18C21BA7278AD13203 /* Pods-Weather AltimetrikTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7582D5855CC2EA5FAEC98843CF2B143D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C7387170DC9917AE8F9A397384334 /* Pods-Weather Altimetrik-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78A5441D477FC6F4A1092594BFD0A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC2DF605C9416035501ABF75FA44178 /* MSBBarChart-dummy.m in Sources */,
+				1053C8B99278A3AECD337D917628770A /* MSBBarChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A2241A1B19FF0FAB59FB58EB25852C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSBBarChart;
+			target = 4AF6EE3BD874E7A6E784BEF53217E269 /* MSBBarChart */;
+			targetProxy = 1DFF3D548579BC1F4C58539160B7B03E /* PBXContainerItemProxy */;
+		};
+		DCFCCA6BB57C5D4BABED38981B8EE19B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Weather Altimetrik";
+			target = 5FDE563F34B0FC7F7D629224C576CBED /* Pods-Weather Altimetrik */;
+			targetProxy = 3FC399F5BB10FF41CCA42B1CD0534FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F1F02D692B7F59E3DE8BB69DF7195B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2687ED04A528DE06F84CBDCAD5EFF614 /* Pods-Weather AltimetrikTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Weather AltimetrikTests/Pods-Weather AltimetrikTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather AltimetrikTests/Pods-Weather AltimetrikTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B65EFCFE40605FE1C2FB1621DE0F02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FB5D33594ACAC9E548C425C12A4334 /* MSBBarChart.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSBBarChart/MSBBarChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSBBarChart/MSBBarChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSBBarChart/MSBBarChart.modulemap";
+				PRODUCT_MODULE_NAME = MSBBarChart;
+				PRODUCT_NAME = MSBBarChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1EABBEAA9DFB916D3856F3345A2B60C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006465923D77D571DE900A0A609322E3 /* Pods-Weather Altimetrik.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Weather Altimetrik/Pods-Weather Altimetrik-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather Altimetrik/Pods-Weather Altimetrik.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FE1A7AB017934B21EF3DA0FC16DC30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FB5D33594ACAC9E548C425C12A4334 /* MSBBarChart.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSBBarChart/MSBBarChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSBBarChart/MSBBarChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSBBarChart/MSBBarChart.modulemap";
+				PRODUCT_MODULE_NAME = MSBBarChart;
+				PRODUCT_NAME = MSBBarChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4590859A76CB9A17773F69D263D26E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCC2209C50144AEB62AB232613AED29 /* Pods-Weather Altimetrik.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Weather Altimetrik/Pods-Weather Altimetrik-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather Altimetrik/Pods-Weather Altimetrik.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA50EF4949B00D7A529BCDA248DB314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE104819EA87C1A35588EF775C8F681 /* Pods-Weather AltimetrikTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Weather AltimetrikTests/Pods-Weather AltimetrikTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Weather AltimetrikTests/Pods-Weather AltimetrikTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58EC8EFEAB30B1C54667573FC7B82E09 /* Build configuration list for PBXNativeTarget "Pods-Weather AltimetrikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F1F02D692B7F59E3DE8BB69DF7195B /* Debug */,
+				FA50EF4949B00D7A529BCDA248DB314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3A772F25F6A997A009B49C3E054F06 /* Build configuration list for PBXNativeTarget "Pods-Weather Altimetrik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABBEAA9DFB916D3856F3345A2B60C4 /* Debug */,
+				C4590859A76CB9A17773F69D263D26E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9B137C93C13E96C22AC080711A4C9E /* Build configuration list for PBXNativeTarget "MSBBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B65EFCFE40605FE1C2FB1621DE0F02B /* Debug */,
+				2FE1A7AB017934B21EF3DA0FC16DC30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

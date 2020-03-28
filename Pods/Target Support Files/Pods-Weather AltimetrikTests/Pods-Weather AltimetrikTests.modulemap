@@ -1,0 +1,6 @@
+framework module Pods_Weather_AltimetrikTests {
+  umbrella header "Pods-Weather AltimetrikTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
