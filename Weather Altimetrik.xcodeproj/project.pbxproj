@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA20F1D1242FA14D00F12E81 /* LoicationFormViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20F1D0242FA14D00F12E81 /* LoicationFormViewModelTests.swift */; };
+		EA20F1D6242FA46000F12E81 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20F1D5242FA46000F12E81 /* UIViewController+Utils.swift */; };
 		EA65F043242F9323003C6BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F042242F9323003C6BE7 /* AppDelegate.swift */; };
 		EA65F045242F9323003C6BE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F044242F9323003C6BE7 /* SceneDelegate.swift */; };
-		EA65F047242F9323003C6BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F046242F9323003C6BE7 /* ViewController.swift */; };
+		EA65F047242F9323003C6BE7 /* LocationFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F046242F9323003C6BE7 /* LocationFormViewController.swift */; };
 		EA65F04A242F9323003C6BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA65F048242F9323003C6BE7 /* Main.storyboard */; };
 		EA65F04C242F9325003C6BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA65F04B242F9325003C6BE7 /* Assets.xcassets */; };
 		EA65F04F242F9325003C6BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA65F04D242F9325003C6BE7 /* LaunchScreen.storyboard */; };
 		EA65F05A242F9325003C6BE7 /* Weather_AltimetrikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F059242F9325003C6BE7 /* Weather_AltimetrikTests.swift */; };
+		EA65F066242F9AB4003C6BE7 /* LocationFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65F065242F9AB4003C6BE7 /* LocationFormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA20F1D0242FA14D00F12E81 /* LoicationFormViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoicationFormViewModelTests.swift; sourceTree = "<group>"; };
+		EA20F1D5242FA46000F12E81 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		EA65F03F242F9323003C6BE7 /* Weather Altimetrik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Altimetrik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA65F042242F9323003C6BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA65F044242F9323003C6BE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA65F046242F9323003C6BE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA65F046242F9323003C6BE7 /* LocationFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFormViewController.swift; sourceTree = "<group>"; };
 		EA65F049242F9323003C6BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA65F04B242F9325003C6BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA65F04E242F9325003C6BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		EA65F055242F9325003C6BE7 /* Weather AltimetrikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather AltimetrikTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA65F059242F9325003C6BE7 /* Weather_AltimetrikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AltimetrikTests.swift; sourceTree = "<group>"; };
 		EA65F05B242F9325003C6BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA65F065242F9AB4003C6BE7 /* LocationFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA20F1D2242FA40B00F12E81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA20F1D5242FA46000F12E81 /* UIViewController+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		EA65F036242F9323003C6BE7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +93,10 @@
 		EA65F041242F9323003C6BE7 /* Weather Altimetrik */ = {
 			isa = PBXGroup;
 			children = (
+				EA20F1D2242FA40B00F12E81 /* Extensions */,
 				EA65F042242F9323003C6BE7 /* AppDelegate.swift */,
 				EA65F044242F9323003C6BE7 /* SceneDelegate.swift */,
-				EA65F046242F9323003C6BE7 /* ViewController.swift */,
+				EA65F064242F9A9D003C6BE7 /* LocationForm */,
 				EA65F048242F9323003C6BE7 /* Main.storyboard */,
 				EA65F04B242F9325003C6BE7 /* Assets.xcassets */,
 				EA65F04D242F9325003C6BE7 /* LaunchScreen.storyboard */,
@@ -95,8 +110,18 @@
 			children = (
 				EA65F059242F9325003C6BE7 /* Weather_AltimetrikTests.swift */,
 				EA65F05B242F9325003C6BE7 /* Info.plist */,
+				EA20F1D0242FA14D00F12E81 /* LoicationFormViewModelTests.swift */,
 			);
 			path = "Weather AltimetrikTests";
+			sourceTree = "<group>";
+		};
+		EA65F064242F9A9D003C6BE7 /* LocationForm */ = {
+			isa = PBXGroup;
+			children = (
+				EA65F046242F9323003C6BE7 /* LocationFormViewController.swift */,
+				EA65F065242F9AB4003C6BE7 /* LocationFormViewModel.swift */,
+			);
+			path = LocationForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA65F047242F9323003C6BE7 /* ViewController.swift in Sources */,
+				EA65F047242F9323003C6BE7 /* LocationFormViewController.swift in Sources */,
 				EA65F043242F9323003C6BE7 /* AppDelegate.swift in Sources */,
 				EA65F045242F9323003C6BE7 /* SceneDelegate.swift in Sources */,
+				EA65F066242F9AB4003C6BE7 /* LocationFormViewModel.swift in Sources */,
+				EA20F1D6242FA46000F12E81 /* UIViewController+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA65F05A242F9325003C6BE7 /* Weather_AltimetrikTests.swift in Sources */,
+				EA20F1D1242FA14D00F12E81 /* LoicationFormViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
