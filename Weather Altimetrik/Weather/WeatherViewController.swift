@@ -13,6 +13,7 @@ import MSBBarChart
 class WeatherViewController: UIViewController {
 
     @IBOutlet private weak var chartView: MSBBarChartView!
+    @IBOutlet private weak var segmentedControl: UISegmentedControl!
 
     var viewModel: WeatherViewModel! {
         didSet {
@@ -31,9 +32,15 @@ class WeatherViewController: UIViewController {
         guard let chartData = viewModel.weather?.hourly.data.map({Int($0.temperature)}) else {
             return
         }
+
         DispatchQueue.main.async {
             self.chartView.setDataEntries(values: chartData)
             self.chartView.start()
         }
     }
+
+    @IBAction func didChangedSegmentedControl(_ sender: Any) {
+        
+    }
+
 }

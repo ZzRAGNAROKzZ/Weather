@@ -48,7 +48,7 @@ final class RequestManager {
         request.setValue(K.contentTypeJsonValue, forHTTPHeaderField: K.contentTypeKey)
 
         session.dataTask(with: request) { (data, response, error) in
-            let isSuccessful = error != nil
+            let isSuccessful = error == nil
             completion((isSuccessful, data, error))
         }.resume()
     }

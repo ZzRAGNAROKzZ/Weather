@@ -112,11 +112,23 @@
                                     <constraint firstAttribute="width" secondItem="QP8-RT-Cpx" secondAttribute="height" multiplier="1:1" id="6Lz-j8-LWy"/>
                                 </constraints>
                             </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z5W-3S-j33">
+                                <rect key="frame" x="147.5" y="196" width="119" height="32"/>
+                                <segments>
+                                    <segment title="Hourly"/>
+                                    <segment title="Daily"/>
+                                </segments>
+                                <connections>
+                                    <action selector="didChangedSegmentedControl:" destination="a9M-Qf-N7m" eventType="valueChanged" id="ZK5-UI-5CG"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="QP8-RT-Cpx" firstAttribute="centerX" secondItem="yZ4-PC-74m" secondAttribute="centerX" id="1B0-ft-ahR"/>
                             <constraint firstItem="QP8-RT-Cpx" firstAttribute="leading" secondItem="eqb-TQ-OF7" secondAttribute="leading" constant="16" id="5u7-NX-1fC"/>
+                            <constraint firstItem="QP8-RT-Cpx" firstAttribute="top" secondItem="Z5W-3S-j33" secondAttribute="bottom" constant="30" id="7Y1-Mv-57Z"/>
+                            <constraint firstItem="Z5W-3S-j33" firstAttribute="centerX" secondItem="yZ4-PC-74m" secondAttribute="centerX" id="CD4-NE-1cJ"/>
                             <constraint firstItem="QP8-RT-Cpx" firstAttribute="centerY" secondItem="yZ4-PC-74m" secondAttribute="centerY" id="ZBh-i7-mnQ"/>
                             <constraint firstItem="eqb-TQ-OF7" firstAttribute="trailing" secondItem="QP8-RT-Cpx" secondAttribute="trailing" constant="16" id="ZXi-Ix-aZw"/>
                         </constraints>
@@ -125,6 +137,7 @@
                     <navigationItem key="navigationItem" id="lUr-1q-xIM"/>
                     <connections>
                         <outlet property="chartView" destination="QP8-RT-Cpx" id="iI7-IG-50b"/>
+                        <outlet property="segmentedControl" destination="Z5W-3S-j33" id="7qz-nc-vut"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eEq-8S-bt7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
